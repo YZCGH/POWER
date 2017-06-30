@@ -1,0 +1,29 @@
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\bin\Debug\POWER.exe.config
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\bin\Debug\POWER.exe
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\bin\Debug\POWER.pdb
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\bin\Debug\lua51.dll
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\bin\Debug\LuaInterface.dll
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.csprojResolveAssemblyReference.cache
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.Form1.resources
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.Properties.Resources.resources
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.csproj.GenerateResource.Cache
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.exe
+c:\users\zc\documents\visual studio 2013\Projects\POWER\POWER\obj\Debug\POWER.pdb
+C:\Users\user\Desktop\POWER\POWER\bin\Debug\POWER.exe.config
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.exe
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.pdb
+C:\Users\user\Desktop\POWER\POWER\bin\Debug\POWER.exe
+C:\Users\user\Desktop\POWER\POWER\bin\Debug\POWER.pdb
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.Form1.resources
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.Properties.Resources.resources
+C:\Users\user\Desktop\POWER\POWER\obj\Debug\POWER.csproj.GenerateResource.Cache
+D:\CVTAT\AT\AtTool\POWER\POWER\bin\Debug\POWER.exe.config
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.exe
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.pdb
+D:\CVTAT\AT\AtTool\POWER\POWER\bin\Debug\POWER.exe
+D:\CVTAT\AT\AtTool\POWER\POWER\bin\Debug\POWER.pdb
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.csprojResolveAssemblyReference.cache
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.Form1.resources
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.Properties.Resources.resources
+D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.csproj.GenerateResource.Cache
