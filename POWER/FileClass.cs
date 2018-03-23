@@ -32,7 +32,7 @@ namespace POWER
             String Contents = "";
             while ((line = txt.ReadLine()) != null)
             {
-                Contents = Contents + line.ToString();
+                Contents = Contents + line.ToString() + "\r\n";
             }
             txt.Close();
             return Contents;

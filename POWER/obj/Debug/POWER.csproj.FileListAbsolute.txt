@@ -27,3 +27,6 @@ D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.csprojResolveAssemblyReference.ca
 D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.Form1.resources
 D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.Properties.Resources.resources
 D:\CVTAT\AT\AtTool\POWER\POWER\obj\Debug\POWER.csproj.GenerateResource.Cache
+D:\AT\AtTool\POWER\POWER\bin\Debug\POWER.exe.config
+D:\AT\AtTool\POWER\POWER\obj\Debug\POWER.exe
+D:\AT\AtTool\POWER\POWER\obj\Debug\POWER.pdb

@@ -1,3 +1,3 @@
-sUsbDisk = "H";
+sUsbDisk = "G";
 sUsbSerialCom = "COM4";
 

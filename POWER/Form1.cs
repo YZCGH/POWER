@@ -19,6 +19,8 @@ namespace POWER
         string sUsbSerial;//U盘切换开关串口端口
         string sSetConfigContents = "";//设置页面，内容字符串
         string sSetingConfigPath = "..//..//lua//setingconfig.lua";
+        string sNotePath = "..//..//lua//note.lua";
+        string sIpBatFilePath = "..//..//bat//DVBSConnect.bat";
         string sStar = "\"";
         string sEnd = "\";\n";
 
@@ -32,16 +34,29 @@ namespace POWER
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
             string sTemp;
 
             sTemp = file.TxtRead(sSetingConfigPath);
             if (sTemp != "")
             {
                 USBDisk.Text = sTemp.Substring(12, 1);
-                sUSBSwitchCom.Text = sTemp.Substring(32, 4);
+                sUSBSwitchCom.Text = sTemp.Substring(34, 4);
             }
+
+            sTemp = file.TxtRead(sNotePath);
+            if (sTemp != "")
+            {
+                textBox1.Text = sTemp;
+            }
+
+            sTemp = file.TxtRead(sIpBatFilePath);
+            if (sTemp != "")
+            {
+                textBox2.Text = sTemp.Substring(9, 15);
+            }
+
+
+
         }
 
 
@@ -156,9 +171,29 @@ namespace POWER
             file.TxtWrite(sSetingConfigPath, sSetConfigContents, false);
         }
 
+        //便签文字改变出发动作
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            file.TxtWrite(sNotePath, textBox1.Text, false);
+        }
+
+        //CVTAT代码更新按钮
         private void SVNUpdate_Click(object sender, EventArgs e)
         {
             object[] objs = lua.LuaRun(2); 
+        }
+
+        //远程访问按钮
+        private void button1_Click(object sender, EventArgs e)
+        {
+            object[] objs = lua.LuaRun(3); 
+        }
+
+        //IP输入框，内容变化后触发动作
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            string sContent = "mstsc /v:" + textBox2.Text + "\n exit";
+            file.TxtWrite(sIpBatFilePath, sContent, false);
         }
 
 
